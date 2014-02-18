@@ -10,6 +10,7 @@
 		3DAEC1C618A9C23500B08C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAEC1C518A9C23500B08C90 /* Foundation.framework */; };
 		3DAEC1C918A9C23500B08C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEC1C818A9C23500B08C90 /* main.m */; };
 		3DAEC1CD18A9C23500B08C90 /* Logins.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DAEC1CC18A9C23500B08C90 /* Logins.1 */; };
+		3DAEC1D518A9C27400B08C90 /* SiteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEC1D418A9C27400B08C90 /* SiteValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		3DAEC1C818A9C23500B08C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DAEC1CB18A9C23500B08C90 /* Logins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logins-Prefix.pch"; sourceTree = "<group>"; };
 		3DAEC1CC18A9C23500B08C90 /* Logins.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Logins.1; sourceTree = "<group>"; };
+		3DAEC1D318A9C27400B08C90 /* SiteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteValue.h; sourceTree = "<group>"; };
+		3DAEC1D418A9C27400B08C90 /* SiteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteValue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				3DAEC1C818A9C23500B08C90 /* main.m */,
+				3DAEC1D318A9C27400B08C90 /* SiteValue.h */,
+				3DAEC1D418A9C27400B08C90 /* SiteValue.m */,
 				3DAEC1CC18A9C23500B08C90 /* Logins.1 */,
 				3DAEC1CA18A9C23500B08C90 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEC1D518A9C27400B08C90 /* SiteValue.m in Sources */,
 				3DAEC1C918A9C23500B08C90 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
